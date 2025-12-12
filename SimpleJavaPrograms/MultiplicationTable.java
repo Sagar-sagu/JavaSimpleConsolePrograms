@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class MultiplicationTable
+{
+  static void returnMultiplyValue(int num)
+  {
+    for (int i=1;i<11;i++)
+    {
+      System.out.println("");
+      System.out.println(num + " x " + i + " = " + num*i);
+    }
+  }
+  public static void Main()
+  {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("enter multiply Number");
+    int num = scan.nextInt();
+
+    returnMultiplyValue(num);
+  }
+}

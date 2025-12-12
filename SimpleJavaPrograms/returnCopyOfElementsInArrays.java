@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class returnCopyOfIntegerAndStringValueInArrays
+public class returnCopyOfElementsInArrays
 {
   static ArrayList<String> returnCopyOfCharactersOrStringsValues(String[] array1,String[] array2)
   {
@@ -18,7 +18,7 @@ public class returnCopyOfIntegerAndStringValueInArrays
     }
     return list;
   }
-    
+
   static ArrayList<Integer> returnCopyOfIntegersvalues(int[] IntArray1,int[] IntArray2)
   {
     ArrayList<Integer> list = new ArrayList<>();
@@ -46,7 +46,7 @@ public class returnCopyOfIntegerAndStringValueInArrays
       int[] IntArray1=new int[5];
       int[] IntArray2=new int[5];
       System.out.println("Note:-");
-      System.out.println("enter ten String or character");
+      System.out.println("enter five String or character");
       System.out.println("don't mix, choose one");
       System.out.println("");
       System.out.println("Enter 1st array ");
@@ -61,7 +61,7 @@ public class returnCopyOfIntegerAndStringValueInArrays
       }
 
       System.out.println("");
-      System.out.println("enter ten Integer");
+      System.out.println("enter five Integer");
       System.out.println("Enter 1st array ");
       for (int i=0;i<IntArray1.length;i++)
       {
@@ -81,7 +81,7 @@ public class returnCopyOfIntegerAndStringValueInArrays
     }
     catch (Exception e)
     {
-    System.out.println("Enter ten Elements only");
+    System.out.println("Enter five Elements only");
     }
   }
 }
