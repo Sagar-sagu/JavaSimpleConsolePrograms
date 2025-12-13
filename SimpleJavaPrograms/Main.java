@@ -20,6 +20,7 @@ public class Main
       System.out.println("6.PrintFibonacciSeries");
       System.out.println("7.PrintNumbersUsingRecursion");
       System.out.println("8.PrintMultiplicationTable");
+      System.out.println("9.CheckWhetherEvenOrOdd");
       System.out.println("");
       System.out.println("Select option (1/2/3/4/5/6/7/8/)");
       String choice = scan.nextLine();
@@ -42,8 +43,10 @@ public class Main
                  break;
         case "8":PrintMultiplicationTable.Main();
                  break;
-        //case "9":
+        case "9":CheckWhetherEvenOrOdd.Main();
+                 break;
         default:System.out.println("Enter valid choice");
+                 break;
       }
     }
   }

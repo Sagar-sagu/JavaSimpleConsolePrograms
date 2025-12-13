@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PrintMultiplicationTable
 {
-  static void returnMultiplyValue(int num)
+  static void MultiplyGivenValueAndPrint(int num)
   {
     for (int i=1;i<11;i++)
     {
@@ -18,6 +18,6 @@ public class PrintMultiplicationTable
     System.out.println("enter multiply Number");
     int num = scan.nextInt();
 
-    returnMultiplyValue(num);
+    MultiplyGivenValueAndPrint(num);
   }
 }

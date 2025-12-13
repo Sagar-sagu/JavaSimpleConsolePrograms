@@ -22,12 +22,19 @@ public class SwapTwoNumbers
 
   public static void Main()
   {
-    Scanner scan = new Scanner(System.in);
-    System.out.println("Enter 1st Number");
-    int num1=scan.nextInt();
-    System.out.println("Enter 2nd Number");
-    int num2=scan.nextInt();
+    try
+    {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter 1st Number");
+      int num1=scan.nextInt();
+      System.out.println("Enter 2nd Number");
+      int num2=scan.nextInt();
 
-    swapTwoNumbers(num1,num2);
+      swapTwoNumbers(num1,num2);
+    }
+    catch (Exception e)
+    {
+      System.out.println("Exception:- enter numbers");
+    }
   }
 }

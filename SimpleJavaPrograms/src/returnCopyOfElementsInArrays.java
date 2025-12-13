@@ -83,7 +83,7 @@ public class returnCopyOfElementsInArrays
     }
     catch (Exception e)
     {
-    System.out.println("Enter five Elements only");
+    System.out.println("Enter  Integer Elements ");
     }
   }
 }
