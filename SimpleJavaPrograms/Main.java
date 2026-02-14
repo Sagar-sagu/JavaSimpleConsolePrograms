@@ -22,8 +22,9 @@ public class Main
       System.out.println("8.Print Multiplication Table");
       System.out.println("9.Check Whether Even Or Odd");
       System.out.println("10.Guess Your Age");
+      System.out.println("11.tic tac Game");
       System.out.println("");
-      System.out.println("Select option (1/2/3/4/5/6/7/8/)");
+      System.out.println("Select option (1/2/3/4/5/6/7/8/9/10/11)");
       String choice = scan.nextLine();
 
       switch (choice)
@@ -47,6 +48,8 @@ public class Main
         case "9":CheckWhetherEvenOrOdd.Main();
                  break;
         case "10":GuessYourAge.Main();
+                 break;
+        case "11":TicTacToeGame.Main();
                  break;
         default:System.out.println("Enter valid choice");
                  break;
